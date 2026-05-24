@@ -18,6 +18,16 @@ async function refreshInBackground() {
   return checkForDataUpdates(DATA_MANIFEST_URL);
 }
 
+async function findCachedEntity(entity: "move" | "ability", normalizedName: string) {
+  const cached = await getCachedRuntimeData();
+  const result = entity === "move" ? cached.movesByName?.[normalizedName] : cached.abilitiesByName?.[normalizedName];
+
+  return {
+    result: result ?? null,
+    version: cached.manifest?.version ?? null,
+  };
+}
+
 chrome.runtime.onInstalled.addListener(() => {
   chrome.alarms.create(REFRESH_ALARM_NAME, { periodInMinutes: REFRESH_PERIOD_MINUTES });
   void refreshInBackground();
@@ -45,17 +55,16 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
     const normalizedName = request.normalizedName;
     const entity = request.entity;
 
-    void getCachedRuntimeData().then((cached) => {
-      const result =
-        entity === "move" ? cached.movesByName?.[normalizedName] : cached.abilitiesByName?.[normalizedName];
+    void findCachedEntity(entity, normalizedName).then(async (cachedLookup) => {
+      if (cachedLookup.result) {
+        sendResponse(cachedLookup);
+        void refreshInBackground();
+        return;
+      }
 
-      sendResponse({
-        result: result ?? null,
-        version: cached.manifest?.version ?? null,
-      });
+      await refreshInBackground();
+      sendResponse(await findCachedEntity(entity, normalizedName));
     });
-
-    void refreshInBackground();
     return true;
   }
 
