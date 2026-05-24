@@ -1,0 +1,1469 @@
+{
+  "version": "20260524-102033526Z",
+  "updatedAt": "2026-05-24T10:20:33.526Z",
+  "abilities": [
+    {
+      "id": "30de9a6e-5854-80c7-bea6-d329c2505564",
+      "name": "Sharpness",
+      "normalizedName": "sharpness",
+      "category": "Passive",
+      "effect": "Increase the Base Power of Slice moves used by this Pokémon by 50%."
+    },
+    {
+      "id": "2e4e9a6e-5854-80f6-863f-c9298b12eced",
+      "name": "Sheer Force",
+      "normalizedName": "sheerforce",
+      "category": "Passive",
+      "effect": "All Power Rolls this Pokémon makes for damaging moves with the [Status](/1d9e9a6e585481daa7e7f0c69b690faa), [Status Chance](/1d9e9a6e58548039a37df77b067bf65e), [Stat Lower](/1d9e9a6e585481448b1ccfbadfb5162d), and [Stat Lower Chance](/1d9e9a6e5854814faf2ce4b1cbaacfc2) tags receive a Tier 1 result and cannot inflict statuses or lower enemy stats. Double the base power of those moves."
+    },
+    {
+      "id": "1f3e9a6e-5854-80cf-add4-ddc9fb0bbbbf",
+      "name": "Shed Skin",
+      "normalizedName": "shedskin",
+      "category": "Trigger",
+      "effect": "At the end of this Pokémon’s turn, if it has a [non-volatile status condition](/211e9a6e5854807c9db2fd370e0240f4), roll a power. On a 13+, the condition is cured."
+    },
+    {
+      "id": "1d9e9a6e-5854-8111-b43a-f6b55eccaccc",
+      "name": "Wonder Skin",
+      "normalizedName": "wonderskin",
+      "category": "Trigger",
+      "effect": "When targeted by a move with the [Status ](/1d9e9a6e585481daa7e7f0c69b690faa)tag, this Pokemon's [Evasion ](/211e9a6e585480699f17eca20149430c)increases by six stages until the move resolves."
+    },
+    {
+      "id": "1d9e9a6e-5854-8157-a2df-f88dd3609cac",
+      "name": "Zen Mode",
+      "normalizedName": "zenmode",
+      "category": "Trigger",
+      "effect": "When this Pokémon starts its turn below 50% it assumes its Zen Mode form. If it starts its turn above 50% HP it assumes its Standard Mode form. While in Zen Mode, its Attack and Special Attack stat values are exchanged, its Defense and Special Defense are increased by two stages, and its Speed is decreased by two stages."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a6-9f8b-d7a729153700",
+      "name": "Wonder Guard",
+      "normalizedName": "wonderguard",
+      "category": "Passive",
+      "effect": "This Pokémon takes no damage from moves that are not Super Effective."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e1-baac-e9ff83236e51",
+      "name": "White Smoke",
+      "normalizedName": "whitesmoke",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to stat reductions caused by the moves, abilities, or effects of enemies."
+    },
+    {
+      "id": "1d9e9a6e-5854-8109-bc0b-c55c160fc63b",
+      "name": "Volt Absorb",
+      "normalizedName": "voltabsorb",
+      "category": "Trigger",
+      "effect": "This Pokémon is immune to the effects of Electric-type attacks. When it is hit by a damaging Electric-type move, it takes no damage and restores 25% of its maximum HP."
+    },
+    {
+      "id": "1d9e9a6e-5854-8164-99a3-ce298389b6dc",
+      "name": "Water Absorb",
+      "normalizedName": "waterabsorb",
+      "category": "Trigger",
+      "effect": "This Pokémon is immune to the effects of Water-type attacks. When it is hit by a damaging Water-type move, it takes no damage and restores 25% of its maximum HP."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e4-9b9d-dd227fcde88b",
+      "name": "Weak Armor",
+      "normalizedName": "weakarmor",
+      "category": "Trigger",
+      "effect": "When this Pokémon is hit by a Physical move, its Defense lowers and its Speed sharply raises."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ed-aaf2-ef1f399b4b38",
+      "name": "Water Veil",
+      "normalizedName": "waterveil",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to [Burn](/211e9a6e5854807c9db2fd370e0240f4)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8105-842a-f9743c07f262",
+      "name": "Unaware",
+      "normalizedName": "unaware",
+      "category": "Passive",
+      "effect": "If a Pokémon with this Ability uses a damaging move or is targeted by a damaging move, the other Pokémon's stat stages are ignored during damage and accuracy calculation."
+    },
+    {
+      "id": "1d9e9a6e-5854-812f-8c41-f50521853550",
+      "name": "Victory Star",
+      "normalizedName": "victorystar",
+      "category": "Passive",
+      "effect": "Raises the [Accuracy ](/211e9a6e585480699f17eca20149430c)of this Pokémon and its allies. "
+    },
+    {
+      "id": "1d9e9a6e-5854-8139-bb34-d3938efb7d95",
+      "name": "Unburden",
+      "normalizedName": "unburden",
+      "category": "Trigger",
+      "effect": "This Pokémon's Speed is sharply raised when its held item is used or lost."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a5-8be4-dbf4b8afd46f",
+      "name": "Unnerve",
+      "normalizedName": "unnerve",
+      "category": "Passive",
+      "effect": "Causes opposing Pokémon to be unable to eat their own held Berries."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ba-994d-fff77de18f1b",
+      "name": "Vital Spirit",
+      "normalizedName": "vitalspirit",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to [Drowsy and Sleep.](/211e9a6e5854807c9db2fd370e0240f4)"
+    },
+    {
+      "id": "1d9e9a6e-5854-810a-b993-dc7bd94cd00d",
+      "name": "Triage",
+      "normalizedName": "triage",
+      "category": "Passive",
+      "effect": "This Pokémon may use moves with the [Heal ](/1d9e9a6e585481e9be8ac32e0b1d312d)tag as if they had the [Priority ](/1d9e9a6e5854817ea744e1f764c5ed38)tag."
+    },
+    {
+      "id": "1d9e9a6e-5854-812e-88bd-c276a5738805",
+      "name": "Trace",
+      "normalizedName": "trace",
+      "category": "Free Action",
+      "effect": "Gain the ability of a randomly selected enemy Pokémon within 12 squares until the end of combat."
+    },
+    {
+      "id": "1d9e9a6e-5854-8155-8ba7-d9f73a4787d8",
+      "name": "Turboblaze",
+      "normalizedName": "turboblaze",
+      "category": "Passive",
+      "effect": "This Pokémon ignores any enemy Pokemon abilities that negatively affect the success, damage, or effects of its moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-8161-84fe-f54e92abd3a4",
+      "name": "Toxic Boost",
+      "normalizedName": "toxicboost",
+      "category": "Trigger",
+      "effect": "While this Pokémon is [Poisoned or Badly Poisoned](/211e9a6e5854807c9db2fd370e0240f4), its Attack is sharply raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-8192-bf53-f59a6634b2c6",
+      "name": "Truant",
+      "normalizedName": "truant",
+      "category": "Passive",
+      "effect": "This Pokémon does not perform any actions when directed to do so unless it did not act when directed to do so last turn. A skill test involving this Pokémon doing any physical activity will automatically fail if the rolled result is odd."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a8-a0c8-edbc9acebe86",
+      "name": "Tough Claws",
+      "normalizedName": "toughclaws",
+      "category": "Trigger",
+      "effect": "When this Pokémon uses a move with the Contact tag, it gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-811c-bb21-ffd9355c864f",
+      "name": "Tinted Lens",
+      "normalizedName": "tintedlens",
+      "category": "Trigger",
+      "effect": "When this Pokemon deals damage that is not very effective, it deals that damage at normal effectivity instead."
+    },
+    {
+      "id": "1d9e9a6e-5854-8136-bcc6-dcbe32969a06",
+      "name": "Thick Fat",
+      "normalizedName": "thickfat",
+      "category": "Passive",
+      "effect": "This Pokémon takes half damage from Fire and Ice-type moves. "
+    },
+    {
+      "id": "1d9e9a6e-5854-818b-b00b-ff7d8f4f1ee9",
+      "name": "Teravolt",
+      "normalizedName": "teravolt",
+      "category": "Passive",
+      "effect": "This Pokémon ignores any enemy Pokemon abilities that negatively affect the success, damage, or effects of its moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-819a-bf77-f3980eebec2f",
+      "name": "Torrent",
+      "normalizedName": "torrent",
+      "category": "Passive",
+      "effect": "While this Pokémon is at 1/3 of its maximum HP or lower, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) when dealing Water-type damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-8121-bfe1-c55a0a56e0fd",
+      "name": "Synchronize",
+      "normalizedName": "synchronize",
+      "category": "Trigger",
+      "effect": "When this Pokémon is [Burned, Poisoned, Badly Poisoned, or Paralyzed](/211e9a6e5854807c9db2fd370e0240f4) by another Pokémon’s move or effect, it may inflict that status condition on the other Pokémon. "
+    },
+    {
+      "id": "1d9e9a6e-5854-8129-97c3-d0d02dc05a41",
+      "name": "Symbiosis",
+      "normalizedName": "symbiosis",
+      "category": "Trigger",
+      "effect": "This Pokémon gives its held item to any ally within 12 squares when that ally consumes its held item."
+    },
+    {
+      "id": "1d9e9a6e-5854-817a-8a94-f52a672b4a20",
+      "name": "Swift Swim",
+      "normalizedName": "swiftswim",
+      "category": "Passive",
+      "effect": "While in [Rain, ](/293e9a6e58548032a247eb6fae39019f)this Pokémon’s Speed is raised and its fly and swim speeds are doubled."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a7-8832-e7c506ca5a80",
+      "name": "Telepathy",
+      "normalizedName": "telepathy",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to damaging moves used by its allies."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c0-9bda-cb1bd9bd2ed5",
+      "name": "Tangled Feet",
+      "normalizedName": "tangledfeet",
+      "category": "Passive",
+      "effect": "While this Pokémon is [Confused](/211e9a6e585480ca9529da3727d677cc), its [Evasion ](/211e9a6e585480699f17eca20149430c)increases by six stages."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ed-ab56-ee07796c858b",
+      "name": "Technician",
+      "normalizedName": "technician",
+      "category": "Passive",
+      "effect": "Increases the base power of moves which have a base power of 60 or less by 50%."
+    },
+    {
+      "id": "1d9e9a6e-5854-8137-9f26-ce73f3f4a058",
+      "name": "Sweet Veil",
+      "normalizedName": "sweetveil",
+      "category": "Passive",
+      "effect": "This Pokémon and all allies within 12 squares are cannot gain [Drowsy or Sleep](/211e9a6e5854807c9db2fd370e0240f4) conditions."
+    },
+    {
+      "id": "1d9e9a6e-5854-813f-a2e0-e1309fb69bfd",
+      "name": "Super Luck",
+      "normalizedName": "superluck",
+      "category": "Passive",
+      "effect": "This Pokémon’s Critical Range is increased by 1."
+    },
+    {
+      "id": "1d9e9a6e-5854-8149-880b-ca7721caf417",
+      "name": "Suction Cups",
+      "normalizedName": "suctioncups",
+      "category": "Passive",
+      "effect": "This Pokémon’s [Stability ](/1dbe9a6e5854806e970cf1916823937f)is increased by 3. It is also immune to effects that would force it to switch out."
+    },
+    {
+      "id": "1d9e9a6e-5854-8158-b45d-ceae4c5e12d5",
+      "name": "Swarm",
+      "normalizedName": "swarm",
+      "category": "Passive",
+      "effect": "While this Pokémon is at 1/3 of its maximum HP or lower, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) when dealing Bug-type damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a6-bb7d-ca14dbff2d3c",
+      "name": "Sturdy",
+      "normalizedName": "sturdy",
+      "category": "Trigger",
+      "effect": "If this Pokémon would be reduced to 0 HP from full HP, it is instead reduced to 1 HP."
+    },
+    {
+      "id": "1d9e9a6e-5854-8129-9182-ea006c385164",
+      "name": "Storm Drain",
+      "normalizedName": "stormdrain",
+      "category": "Passive",
+      "effect": "Other Pokemon within 12 squares of this Pokémon must use this Pokémon or its location as a target for Water-type moves. Water-type moves with a Burst range used within 12 squares instead become a Line from the user to this Pokemon. Moves affected by this ability cannot miss or be evaded. This Pokemon is immune to Water-type damage. When hit by a damaging Water-type move, raise this Pokemon's Special Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-8150-adbb-dd85b95ecadc",
+      "name": "Steelworker",
+      "normalizedName": "steelworker",
+      "category": "Passive",
+      "effect": "Whenever this Pokémon uses a damaging Steel-type moves, [raise the effective stat stage.](/211e9a6e58548069a3e6fb330e53ddfd)"
+    },
+    {
+      "id": "1d9e9a6e-5854-8172-a812-ceb715e484c6",
+      "name": "Strong Jaw",
+      "normalizedName": "strongjaw",
+      "category": "Passive",
+      "effect": "When this Pokémon uses moves with the [Bite ](/1d9e9a6e5854819c8adccc86a9b92eb0)tag like Crunch or Ice Fang, raise the [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8199-9c3d-e3653cc9e970",
+      "name": "Sticky Hold",
+      "normalizedName": "stickyhold",
+      "category": "Passive",
+      "effect": "This Pokémon cannot have its held item removed by enemy moves, effects, or abilities."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c9-9ddc-df034c4ca574",
+      "name": "Stench",
+      "normalizedName": "stench",
+      "category": "Trigger",
+      "effect": "Power Rolls (not results) of 17+ on damaging moves used by this Pokémon inflict the [Flinched ](/211e9a6e585480ca9529da3727d677cc)condition on the target in addition to their other effects."
+    },
+    {
+      "id": "1d9e9a6e-5854-8165-8a22-e67ad0400608",
+      "name": "Stall",
+      "normalizedName": "stall",
+      "category": "Passive",
+      "effect": "This Pokémon always moves last in initiative order. If multiple Pokémon have Stall, evaluate their Speed to determine their relative initiative order."
+    },
+    {
+      "id": "1d9e9a6e-5854-8170-b419-e30de270d0ed",
+      "name": "Stakeout",
+      "normalizedName": "stakeout",
+      "category": "Passive",
+      "effect": "This Pokémon doubles the base damage on moves it uses that target Pokemon that switched in this round."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c9-84eb-de6aa1a0f45d",
+      "name": "Static",
+      "normalizedName": "static",
+      "category": "Passive",
+      "effect": "Any time this Pokémon is hit with a Contact move, roll power. On a roll of 14+ the enemy is Paralyzed 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ee-936c-f890b4c273f0",
+      "name": "Stamina",
+      "normalizedName": "stamina",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon is damaged by an enemy move, raise its Defense."
+    },
+    {
+      "id": "1d9e9a6e-5854-81f9-a37b-d8c64acc18b3",
+      "name": "Steadfast",
+      "normalizedName": "steadfast",
+      "category": "Passive",
+      "effect": "Whenever this Pokemon is Flinched, raise its Speed."
+    },
+    {
+      "id": "1d9e9a6e-5854-8109-8651-df493e39e6c9",
+      "name": "Soul-Heart",
+      "normalizedName": "soulheart",
+      "category": "Trigger",
+      "effect": "This Pokemon's Special Attack raises whenever a Pokémon is reduced to 0 HP within 12 squares. "
+    },
+    {
+      "id": "1d9e9a6e-5854-811f-a7da-feaa4fff61f4",
+      "name": "Solid Rock",
+      "normalizedName": "solidrock",
+      "category": "Passive",
+      "effect": "Super-effective attacks against this Pokémon deal 1.25x damage rather than 1.5x."
+    },
+    {
+      "id": "1d9e9a6e-5854-815f-8552-e882d684cff2",
+      "name": "Soundproof",
+      "normalizedName": "soundproof",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to moves with the [Sound ](/1d9e9a6e585481fd92e6fc6a8e6d608a)tag like Sing and Uproar."
+    },
+    {
+      "id": "1d9e9a6e-5854-81af-a65a-c7f824725247",
+      "name": "Solar Power",
+      "normalizedName": "solarpower",
+      "category": "Passive",
+      "effect": "While in [Harsh Sunlight](/293e9a6e58548032a247eb6fae39019f), this Pokémon’s Special Attack is raised, but it loses 1/8th of its maximum HP at the end of its turn."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b8-bc3d-c2ae93432006",
+      "name": "Speed Boost",
+      "normalizedName": "speedboost",
+      "category": "Trigger",
+      "effect": "This Pokémon’s Speed raises at the end of each of its turns."
+    },
+    {
+      "id": "1d9e9a6e-5854-8159-98a7-c78fe22992cf",
+      "name": "Skill Link",
+      "normalizedName": "skilllink",
+      "category": "Passive",
+      "effect": "Whenever this Pokémon rolls against a threshold for continuing a [Multistrike ](/1d9e9a6e58548183ab1add7628d11f24)move, the roll is treated as a success regardless of the result."
+    },
+    {
+      "id": "1d9e9a6e-5854-8174-9e67-c658b2c21693",
+      "name": "Snow Warning",
+      "normalizedName": "snowwarning",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, the weather changes to [Hail](/28ee9a6e585481528845e27fa96c4669)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8187-8605-e659fba5eeb5",
+      "name": "Snow Cloak",
+      "normalizedName": "snowcloak",
+      "category": "Passive",
+      "effect": "While in [Snow](/293e9a6e58548032a247eb6fae39019f), this Pokémon’s [Evasion ](/211e9a6e585480699f17eca20149430c)is sharply raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a2-bfa3-e63966e2672f",
+      "name": "Slush Rush",
+      "normalizedName": "slushrush",
+      "category": "Passive",
+      "effect": "While in [Hail](/293e9a6e58548032a247eb6fae39019f), this Pokemon's Speed is sharply raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c6-83f4-eac181921461",
+      "name": "Sniper",
+      "normalizedName": "sniper",
+      "category": "Passive",
+      "effect": "This Pokemon's [critical damage modifier](/293e9a6e58548091be8fd75eb6ecd14b) is doubled to 4x."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e0-92f5-f3d083478ed9",
+      "name": "Slow Start",
+      "normalizedName": "slowstart",
+      "category": "Passive",
+      "effect": "This Pokémon begins battles with its Attack and Speed harshly lowered for the first 5 rounds of battle."
+    },
+    {
+      "id": "1d9e9a6e-5854-812a-8671-d4c413345e15",
+      "name": "Serene Grace",
+      "normalizedName": "serenegrace",
+      "category": "Passive",
+      "effect": "When this Pokémon uses a move that triggers an additional effect only on its Tier 3 result, that move gains an edge."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b9-bfee-caf9ef74dcb1",
+      "name": "Simple",
+      "normalizedName": "simple",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon would gain or lose stat stages, it instead gains or loses twice that many stat stages."
+    },
+    {
+      "id": "1d9e9a6e-5854-81d2-a8ad-c7984ca94889",
+      "name": "Sap Sipper",
+      "normalizedName": "sapsipper",
+      "category": "Trigger",
+      "effect": "This Pokémon is immune to Grass-type damage. When it is hit by an attack that would deal Grass-type damage, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) for its next damaging move."
+    },
+    {
+      "id": "1d9e9a6e-5854-81da-b94c-facf6b8cd8d9",
+      "name": "Shell Armor",
+      "normalizedName": "shellarmor",
+      "category": "Passive",
+      "effect": "Critical hits do not gain bonus damage against this Pokémon ."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e7-8176-f67202bdc02f",
+      "name": "Scrappy",
+      "normalizedName": "scrappy",
+      "category": "Passive",
+      "effect": "This Pokémon can hit Ghost-type Pokemon with Normal and Fighting-type moves, and is immune to the effects of [Intimidate](/1d9e9a6e585481c18a53f3a22f1842df)."
+    },
+    {
+      "id": "1d9e9a6e-5854-81f1-aff8-f293f27adcee",
+      "name": "Shield Dust",
+      "normalizedName": "shielddust",
+      "category": "Passive",
+      "effect": "This Pokémon is immune from status conditions imposed by damaging moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-8148-8023-d6f6adecf03b",
+      "name": "Sand Veil",
+      "normalizedName": "sandveil",
+      "category": "Passive",
+      "effect": "While in a [Sandstorm](/293e9a6e58548032a247eb6fae39019f), this Pokémon’s [Evasion ](/211e9a6e585480699f17eca20149430c)sharply raises."
+    },
+    {
+      "id": "1d9e9a6e-5854-816e-9483-e6286dbd8c20",
+      "name": "Run Away",
+      "normalizedName": "runaway",
+      "category": "Passive",
+      "effect": "This Pokémon cannot be [Trapped or Grappled](/211e9a6e585480ca9529da3727d677cc), and gets +4 to tests made to escape combat or other dangerous situations."
+    },
+    {
+      "id": "1d9e9a6e-5854-817c-9878-f5dc0f08c90c",
+      "name": "Sand Rush",
+      "normalizedName": "sandrush",
+      "category": "Passive",
+      "effect": "While in a [Sandstorm](/293e9a6e58548032a247eb6fae39019f), this Pokémon’s Speed sharply raises."
+    },
+    {
+      "id": "1d9e9a6e-5854-818f-87e9-c3ff2e647c29",
+      "name": "Sand Force",
+      "normalizedName": "sandforce",
+      "category": "Trigger",
+      "effect": "This Pokémon gains a [surge](/213e9a6e58548098a24ef4f25eb3690b) when it uses a damaging Ground-type, Steel-type, and Rock-type move during a [Sandstorm](/293e9a6e58548032a247eb6fae39019f)."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a5-89c9-ff473948b60e",
+      "name": "Sandstream",
+      "normalizedName": "sandstream",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, the weather changes to a [Sandstorm](/293e9a6e58548032a247eb6fae39019f)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8109-bb28-ea1e2ae3c697",
+      "name": "Refrigerate",
+      "normalizedName": "refrigerate",
+      "category": "Passive",
+      "effect": "Any Normal-type move used by this Pokémon becomes Ice-type. When a move’s type changes this way, the user gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8168-b7c8-f44eabfd0f8e",
+      "name": "Rivalry",
+      "normalizedName": "rivalry",
+      "category": "Passive",
+      "effect": "When this Pokémon deals damage to or is dealt damage by a Pokémon that shares a type with it, it gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-818a-846b-de27be0daacf",
+      "name": "Regenerator",
+      "normalizedName": "regenerator",
+      "category": "Trigger",
+      "effect": "This Pokémon restores 1/3 of its maximum HP when it is switched out for another Pokémon during battle."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a2-b2ca-d64452e45fde",
+      "name": "Rock Head",
+      "normalizedName": "rockhead",
+      "category": "Passive",
+      "effect": "This Pokémon incurs no self-inflicted damage from moves with the [Recoil ](/1d9e9a6e58548175b1c6efa1bd2563a8)tag."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a3-88c3-d4a5cdd1bb08",
+      "name": "Reckless",
+      "normalizedName": "reckless",
+      "category": "Passive",
+      "effect": "Moves this Pokémon uses with the [Recoil ](/1d9e9a6e58548175b1c6efa1bd2563a8)tag gain +20 base damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-8127-b9d3-cc0ec64d9799",
+      "name": "Rattled",
+      "normalizedName": "rattled",
+      "category": "Trigger",
+      "effect": "Raise this Pokémon’s Speed any time it is hit by a damaging Bug, Dark, or Ghost-type move."
+    },
+    {
+      "id": "1d9e9a6e-5854-813d-9427-c362f3a43e34",
+      "name": "Queenly Majesty",
+      "normalizedName": "queenlymajesty",
+      "category": "Passive",
+      "effect": "Priority moves that target this Pokémon or its allies within 12 squares fail."
+    },
+    {
+      "id": "1d9e9a6e-5854-814f-985e-fe1d52e8ab71",
+      "name": "Rain Dish",
+      "normalizedName": "raindish",
+      "category": "Trigger",
+      "effect": "This Pokémon gains 1/16 of its maximum HP at the end of its turn during Rain."
+    },
+    {
+      "id": "1d9e9a6e-5854-814f-b33f-c58fb9601bca",
+      "name": "Quick Feet",
+      "normalizedName": "quickfeet",
+      "category": "Trigger",
+      "effect": "When this Pokémon gains a status condition, sharply raise its Speed. Paralysis does not affect this Pokémon’s initiative order or incur a Speed reduction. "
+    },
+    {
+      "id": "1d9e9a6e-5854-81a7-bea4-c21f7a6e1af2",
+      "name": "Pure Power",
+      "normalizedName": "purepower",
+      "category": "Passive",
+      "effect": "When this Pokémon enters, its Attack is sharply raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-810a-8ee3-e0a06d85634a",
+      "name": "Protean",
+      "normalizedName": "protean",
+      "category": "Trigger",
+      "effect": "When this Pokemon uses a move, its type changes to the type of that move. The change applies before damage calculations."
+    },
+    {
+      "id": "1d9e9a6e-5854-810c-9c5c-ef545032cf9a",
+      "name": "Psychic Surge",
+      "normalizedName": "psychicsurge",
+      "category": "Free Action",
+      "effect": "The ground in a Burst 2 radius of this Pokémon becomes difficult terrain (Psychic) for the rest of the battle. Roll power:\n\nTier 1 (9 or lower): No effect.\nTier 2 (10 to 14): Pokémon in range take Psychic damage equal to half of the Power Roll result, rounded down.\nTier 3 (15+): Pokémon in range take Psychic damage equal to the Power Roll result. Confuse 1."
+    },
+    {
+      "id": "1d9e9a6e-5854-815c-8082-c17d37993a13",
+      "name": "Prism Armor",
+      "normalizedName": "prismarmor",
+      "category": "Passive",
+      "effect": "The multiplier for critical damage dealt to this Pokemon is 1.25."
+    },
+    {
+      "id": "1d9e9a6e-5854-815c-9dc0-d955953f8bff",
+      "name": "Pressure",
+      "normalizedName": "pressure",
+      "category": "Passive",
+      "effect": "Any move used by an enemy within 12 squares of this Pokémon costs twice its normal PP cost."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ad-b607-e125e674ecef",
+      "name": "Pranskter",
+      "normalizedName": "pranskter",
+      "category": "Passive",
+      "effect": "This Pokémon can use all Status moves as if they had the [Priority](/1d9e9a6e5854817ea744e1f764c5ed38) tag. Dark-type Pokémon are immune to moves used this way. "
+    },
+    {
+      "id": "1d9e9a6e-5854-81e8-b1d3-eb0b7384d2b5",
+      "name": "Poison Touch",
+      "normalizedName": "poisontouch",
+      "category": "Trigger",
+      "effect": "Any time this Pokémon hits an enemy with a Contact move, roll power. On a roll of 14+ the enemy is Poisoned 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-8111-ba12-d0a17d3fd259",
+      "name": "Poison Heal",
+      "normalizedName": "poisonheal",
+      "category": "Passive",
+      "effect": "This Pokémon heals 1/8 of its max HP at the end of every turn it is [Poisoned or Badly Poisoned](/211e9a6e5854807c9db2fd370e0240f4) instead of taking damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-812e-bb38-c86befae54df",
+      "name": "Poison Point",
+      "normalizedName": "poisonpoint",
+      "category": "Trigger",
+      "effect": "Any time this Pokémon is hit with a Contact move, roll power. On a roll of 14+ the enemy is Poisoned 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-814d-802b-ee6aca27a1d7",
+      "name": "Plus",
+      "normalizedName": "plus",
+      "category": "Passive",
+      "effect": "When this Pokémon is within 12 squares of an ally with Plus, raise its Special Attack. Sharply raise it instead if the ally is adjacent."
+    },
+    {
+      "id": "1d9e9a6e-5854-81d4-86f2-e5b6dd82a3d8",
+      "name": "Pickup",
+      "normalizedName": "pickup",
+      "category": "Passive",
+      "effect": "After winning a battle while this Pokémon is partied, roll on the Tier 1 loot table."
+    },
+    {
+      "id": "1d9e9a6e-5854-8128-9daf-f18fd51e0412",
+      "name": "Overgrow",
+      "normalizedName": "overgrow",
+      "category": "Passive",
+      "effect": "While this Pokémon is at 1/3 of its maximum HP or lower, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) when dealing Grass-type damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-8141-8ad7-d95e125768e7",
+      "name": "Own Tempo",
+      "normalizedName": "owntempo",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to the [Confused ](/211e9a6e585480ca9529da3727d677cc)condition."
+    },
+    {
+      "id": "1d9e9a6e-5854-816d-a813-dd74fb463b40",
+      "name": "Oblivious",
+      "normalizedName": "oblivious",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to the Infatuation condition and moves with the Restriction tag."
+    },
+    {
+      "id": "1d9e9a6e-5854-81d7-8f31-ed50cb1e1d20",
+      "name": "Pickpocket",
+      "normalizedName": "pickpocket",
+      "category": "Trigger",
+      "effect": "If this Pokémon does not have a held item and hits another Pokémon with a damaging Melee move, it can steal the target's held item."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e8-8dd8-fcb20e2edb18",
+      "name": "Overcoat",
+      "normalizedName": "overcoat",
+      "category": "Passive",
+      "effect": "This Pokemon is immune to damage from [Sandstorms and Hail](/293e9a6e58548032a247eb6fae39019f). It is also immune to Powder and Spore moves and the ability Effect Spore."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ed-abb3-e254c601c90d",
+      "name": "Parental Bond",
+      "normalizedName": "parentalbond",
+      "category": "Trigger",
+      "effect": "When this Pokémon has its offspring with it and uses a damaging single target move, roll power. On a 14+, the offspring will make the same move with a 75% reduction in base move damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-8100-8927-d8c77b87e0b7",
+      "name": "Normalize",
+      "normalizedName": "normalize",
+      "category": "Trigger",
+      "effect": "Any move used by this Pokémon becomes Normal-type. When this Pokémon uses a move that was already Normal-type, it gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8123-ab66-f92645bf5bce",
+      "name": "No Guard",
+      "normalizedName": "noguard",
+      "category": "Passive",
+      "effect": "Attacks made by this Pokémon and attacks that target this Pokémon ignore all stat stage modifiers to[ Evasion and Accuracy](/211e9a6e585480699f17eca20149430c)."
+    },
+    {
+      "id": "1d9e9a6e-5854-812b-8018-c46fcc7e05eb",
+      "name": "Neuroforce",
+      "normalizedName": "neuroforce",
+      "category": "Passive",
+      "effect": "The damage multiplier for super-effective damage on moves used by this Pokemon becomes 2x. This effect stacks when moves are effective against both of a target Pokemon's types (bringing the total to 4x damage)."
+    },
+    {
+      "id": "1d9e9a6e-5854-81af-a374-cf82c41064c0",
+      "name": "Natural Cure",
+      "normalizedName": "naturalcure",
+      "category": "Trigger",
+      "effect": "This Pokémon will automatically heal from any status condition at the end of a battle, after 10 minutes have elapsed since gaining the condition, or whenever it returns to its Pokéball."
+    },
+    {
+      "id": "1d9e9a6e-5854-81bf-8ce2-e605d493176e",
+      "name": "Mummy",
+      "normalizedName": "mummy",
+      "category": "Trigger",
+      "effect": "When this Pokemon is hit by a Contact move and the attacker's ability is not Mummy, roll 1d6. The attacker's ability becomes Mummy for that many hours."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a2-97c7-fe8c29dfcb5f",
+      "name": "Moxie",
+      "normalizedName": "moxie",
+      "category": "Trigger",
+      "effect": "When this Pokémon knocks out an enemy Pokémon, raise its Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-81be-ad2c-fad0f295a4a8",
+      "name": "Multiscale",
+      "normalizedName": "multiscale",
+      "category": "Passive",
+      "effect": "While this Pokémon is at max HP, reduce any damage it takes by 50%. "
+    },
+    {
+      "id": "1d9e9a6e-5854-81e7-a874-e9a61b007884",
+      "name": "Multitype",
+      "normalizedName": "multitype",
+      "category": "Passive",
+      "effect": "While holding a Plate, this Pokémon’s type changes to match the type of the Plate it is holding. "
+    },
+    {
+      "id": "1d9e9a6e-5854-81f0-952b-d479e617b59c",
+      "name": "Motor Drive",
+      "normalizedName": "motordrive",
+      "category": "Trigger",
+      "effect": "When this Pokémon is hit by an Electric-type move, it takes no damage or other effects, and instead raises its Speed."
+    },
+    {
+      "id": "1d9e9a6e-5854-8117-b8bb-f7171cdb96e9",
+      "name": "Mold Breaker",
+      "normalizedName": "moldbreaker",
+      "category": "Passive",
+      "effect": "This Pokemon can damage or affect Pokemon regardless of the immunities the other Pokemon may have from abilities or feats."
+    },
+    {
+      "id": "1d9e9a6e-5854-8136-b1d6-cd1ac77ee7e9",
+      "name": "Mega Launcher",
+      "normalizedName": "megalauncher",
+      "category": "Passive",
+      "effect": "When this Pokemon uses Aura Sphere, Dark Pulse, Dragon Pulse, Heal Pulse, Origin Pulse, or Water Pulse, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd)."
+    },
+    {
+      "id": "1d9e9a6e-5854-816c-9e8c-dd9e68c4fa72",
+      "name": "Minus",
+      "normalizedName": "minus",
+      "category": "Passive",
+      "effect": "When this Pokémon is within 12 squares of an ally with Plus, raise its Special Attack. Sharply raise it instead if the ally is adjacent."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b5-b908-cf4cf0333290",
+      "name": "Merciless",
+      "normalizedName": "merciless",
+      "category": "Passive",
+      "effect": "When this Pokémon targets a Pokémon that is [Poisoned or Badly Poisoned](/211e9a6e5854807c9db2fd370e0240f4) with a move, that move's Power Roll always returns the highest result tier regardless of the roll."
+    },
+    {
+      "id": "1d9e9a6e-5854-81be-9b51-c232e9374b10",
+      "name": "Moody",
+      "normalizedName": "moody",
+      "category": "Trigger",
+      "effect": "At the end of its turn, this Pokémon sharply raises one stat and lowers another. The stats must be chosen at random (including Accuracy and Evasion) and the same stat will not be raised and lowered in one turn. Reroll the stat selection if it would be raised past +6 or lowered past -6. If all stats are already at +6, Moody will only decrease one random stat; likewise, if all stats are already at -6, Moody will only increase one random stat. "
+    },
+    {
+      "id": "1d9e9a6e-5854-8128-9572-df26b35c6a87",
+      "name": "Magician",
+      "normalizedName": "magician",
+      "category": "Trigger",
+      "effect": "If this Pokémon does not have a held item and hits another Pokémon with a damaging move, it can steal the target's held item."
+    },
+    {
+      "id": "1d9e9a6e-5854-8150-9618-c97d47c27b1a",
+      "name": "Marvel Scale",
+      "normalizedName": "marvelscale",
+      "category": "Passive",
+      "effect": "While this Pokémon has a status condition, its Defense is raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-8190-bea4-c53e3e8f2008",
+      "name": "Magic Bounce",
+      "normalizedName": "magicbounce",
+      "category": "Trigger",
+      "effect": "When this Pokémon would be hit by a move with the Stat Lower, Status, Status Chance, or Restriction tag, or is within the area of effect as a Hazard move is used, roll power. On 14+, this Pokémon uses that move on the triggering Pokémon instead. If that move uses an area of effect, select a new origin for the area of effect."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c4-86d3-f673c0b63ef7",
+      "name": "Magnet Pull",
+      "normalizedName": "magnetpull",
+      "category": "Passive",
+      "effect": "Enemy Steel-type Pokémon within 10 squares are [Trapped](/211e9a6e585480ca9529da3727d677cc). Steel-type Pokémon within that range that attempt to move away from this Pokémon do so at double movement cost."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e0-8f68-d49949d9480d",
+      "name": "Magic Guard",
+      "normalizedName": "magicguard",
+      "category": "Passive",
+      "effect": "This Pokémon does not take indirect damage during battle. This includes damage from status conditions, weather, recoil, and entry hazards."
+    },
+    {
+      "id": "1d9e9a6e-5854-816c-aec7-dc3a30e9c512",
+      "name": "Liquid Voice",
+      "normalizedName": "liquidvoice",
+      "category": "Passive",
+      "effect": "All moves this Pokémon uses with the [Sound](/1d9e9a6e585481fd92e6fc6a8e6d608a) tag are Water-type."
+    },
+    {
+      "id": "1d9e9a6e-5854-8174-ae1c-f9f1c52485eb",
+      "name": "Long Reach",
+      "normalizedName": "longreach",
+      "category": "Passive",
+      "effect": "Increase the range of this Pokemon's [Melee](/213e9a6e585480e3913bf0d13b1e115e) moves by 1 square. This Pokemon does not activate any effects caused by using Contact moves against a target."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a8-b117-f9b03ff446a4",
+      "name": "Lightning Rod",
+      "normalizedName": "lightningrod",
+      "category": "Passive",
+      "effect": "Other Pokémon within 12 squares of this Pokémon must use this Pokémon or its location as a target for Electric-type moves. Electric-type moves with a Burst range used within 12 squares instead become a Line from the user to this Pokémon. This Pokémon is immune to Electric-type damage. Moves affected by this ability cannot miss or be evaded. When hit by a damaging Electric-type move, raise this Pokémon’s Special Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e8-9c72-c1fb041f2997",
+      "name": "Liquid Ooze",
+      "normalizedName": "liquidooze",
+      "category": "Trigger",
+      "effect": "When this Pokemon is hit by a move with the [Drain](/1d9e9a6e585481c8aab0e35ed2bbab25) tag, the attacker loses that much HP rather than gaining it."
+    },
+    {
+      "id": "1d9e9a6e-5854-81f0-b83f-f65e94c13bba",
+      "name": "Limber",
+      "normalizedName": "limber",
+      "category": "Passive",
+      "effect": "This Pokemon is immune to [Paralysis](/211e9a6e5854807c9db2fd370e0240f4).\n\nThis Pokemon gains +5 to its Acrobatics skill."
+    },
+    {
+      "id": "1d9e9a6e-5854-8124-b4bb-f2aa4b6dadc3",
+      "name": "Levitate",
+      "normalizedName": "levitate",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to damaging Ground-type moves, Arena Trap, Spikes, Toxic Spikes, and Rototiller. It also ignores Ground-type difficult terrain."
+    },
+    {
+      "id": "1d9e9a6e-5854-8184-a0f7-f327fa742e11",
+      "name": "Light Metal",
+      "normalizedName": "lightmetal",
+      "category": "Passive",
+      "effect": "This Pokémon’s Weight is halved. Increase this Pokémon’s [Disengage](/211e9a6e585480b0b555f80a4787b018) distance by 1."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ea-bcd2-f34653a389a7",
+      "name": "Leaf Guard",
+      "normalizedName": "leafguard",
+      "category": "Passive",
+      "effect": "During [Harsh Sunlight](/293e9a6e58548032a247eb6fae39019f) this Pokémon is immune to status conditions. If Harsh Sunlight is active when this Pokémon enters or it becomes Harsh Sunlight while it is active, this Pokémon is cured of any pre-existing status condition."
+    },
+    {
+      "id": "1d9e9a6e-5854-81f8-adfb-cb40523864f4",
+      "name": "Klutz",
+      "normalizedName": "klutz",
+      "category": "Passive",
+      "effect": "This Pokémon does not gain positive or negative effects from held items."
+    },
+    {
+      "id": "1d9e9a6e-5854-810d-9265-d3a7453cc5ee",
+      "name": "Justified",
+      "normalizedName": "justified",
+      "category": "Trigger",
+      "effect": "When this Pokémon takes Dark-type damage, raise its Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-8131-82a9-e57b267d51da",
+      "name": "Iron Fist",
+      "normalizedName": "ironfist",
+      "category": "Trigger",
+      "effect": "When this Pokémon uses an attack with the [Punch](/1d9e9a6e585481e8bb9ac05d0cbe5225) tag, it gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8185-8fe5-f913ed79dd80",
+      "name": "Iron Barbs",
+      "normalizedName": "ironbarbs",
+      "category": "Trigger",
+      "effect": "When this Pokémon is hit by a Contact move, the attacking Pokémon loses HP equal to 1/8th of its maximum HP."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c1-8a53-f3a22f1842df",
+      "name": "Intimidate",
+      "normalizedName": "intimidate",
+      "category": "Free Action",
+      "effect": "Lower the Attack of all enemies within 8 squares."
+    },
+    {
+      "id": "1d9e9a6e-5854-81d9-a88d-d6d51fc0e01b",
+      "name": "Keen Eye",
+      "normalizedName": "keeneye",
+      "category": "Passive",
+      "effect": "This Pokémon cannot have its [Accuracy ](/211e9a6e585480699f17eca20149430c)lowered and ignores enemy Evasion bonuses."
+    },
+    {
+      "id": "1d9e9a6e-5854-8110-95e4-e4cdd7a00894",
+      "name": "Insomnia",
+      "normalizedName": "insomnia",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to the [Sleep and Drowsy](/211e9a6e5854807c9db2fd370e0240f4) conditions. [Rest ](/28ee9a6e5854812ab14ac4c46ea26c3b)will fail when used. If a Pokémon gains Insomnia during battle, it will immediately cure Sleep and Drowsy."
+    },
+    {
+      "id": "1d9e9a6e-5854-811c-bdeb-dfe4319240d4",
+      "name": "Innards Out",
+      "normalizedName": "innardsout",
+      "category": "Trigger",
+      "effect": "When this Pokémon is knocked out by an opponent's attack, it deals damage to that opponent equal to the amount of HP it had left before last being hit."
+    },
+    {
+      "id": "1d9e9a6e-5854-8175-a4e0-e1d872f71673",
+      "name": "Imposter",
+      "normalizedName": "imposter",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, it can use the move [Transform ](/28ee9a6e5854816bafb7fccda5182659)as a free action."
+    },
+    {
+      "id": "1d9e9a6e-5854-819e-9228-c4c857eaa42c",
+      "name": "Inner Focus",
+      "normalizedName": "innerfocus",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to Flinch."
+    },
+    {
+      "id": "1d9e9a6e-5854-81d5-b892-ca127cc2ec6b",
+      "name": "Infiltrator",
+      "normalizedName": "infiltrator",
+      "category": "Passive",
+      "effect": "This Pokémon ignores the effects of Reflect, Light Screen, Safeguard, Mist, Substitute, or Aurora Veil."
+    },
+    {
+      "id": "1d9e9a6e-5854-8179-824a-c983779926f2",
+      "name": "Hyper Cutter",
+      "normalizedName": "hypercutter",
+      "category": "Passive",
+      "effect": "This Pokémon’s stat stages cannot be lowered from enemy moves or effects."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a6-8c14-cc479423e9b1",
+      "name": "Illuminate",
+      "normalizedName": "illuminate",
+      "category": "Passive",
+      "effect": "When this Pokémon wins a battle, its trainer gains +250 to PokéHunter scores while it remains partied."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c7-b5e0-c0847bc5d4d6",
+      "name": "Immunity",
+      "normalizedName": "immunity",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to the [Poisoned and Badly Poisoned](/211e9a6e5854807c9db2fd370e0240f4) conditions."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c9-9f85-de969568b424",
+      "name": "Illusion",
+      "normalizedName": "illusion",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, its trainer may have it enter with the appearance of any one Pokémon in its trainer's party. The illusion lasts until thes Pokémon takes damage, a DC 15 Investigation test is passed, an Investigation test is attempted at Melee range, or the Pokémon wishes. Wild Pokemon can use this ability at will, but any creature that can see the Pokemon upon use will know its true identity."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e5-8577-d880dccaaf7c",
+      "name": "Ice Body",
+      "normalizedName": "icebody",
+      "category": "Passive",
+      "effect": "This Pokemon regains 1/16 at the end of its turn if it is Hailing and is immune to the damage from Hail."
+    },
+    {
+      "id": "1d9e9a6e-5854-811d-842e-e5a722cdf513",
+      "name": "Huge Power",
+      "normalizedName": "hugepower",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, its Attack is sharply raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-8134-8d21-c2cfb05620ba",
+      "name": "Hustle",
+      "normalizedName": "hustle",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, raise its Attack. It gets a bane to Physical moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-8182-a8bd-e1c5012ea050",
+      "name": "Heavy Metal",
+      "normalizedName": "heavymetal",
+      "category": "Passive",
+      "effect": "This Pokemon's weight is doubled. Increase its [Stability ](/1dbe9a6e5854806e970cf1916823937f)by 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-819a-8649-c94168a48632",
+      "name": "Honey Gather",
+      "normalizedName": "honeygather",
+      "category": "Passive",
+      "effect": "Once a day, this Pokemon can spend 2 hours to attempt to gather honey from a viable environment. Roll power and add its level. On a result of 18+, it produces Honey."
+    },
+    {
+      "id": "1d9e9a6e-5854-81f0-923e-d3f69c258d99",
+      "name": "Hydration",
+      "normalizedName": "hydration",
+      "category": "Passive",
+      "effect": "This Pokémon is cured of any status condition at the end of its turn if it is [Raining](/293e9a6e58548032a247eb6fae39019f)."
+    },
+    {
+      "id": "1d9e9a6e-5854-810b-b5f9-f97643544a8b",
+      "name": "Heat Proof",
+      "normalizedName": "heatproof",
+      "category": "Passive",
+      "effect": "All Fire damage taken by this Pokemon is reduced by 50%."
+    },
+    {
+      "id": "1d9e9a6e-5854-8132-9ec6-cbe3f0554780",
+      "name": "Healer",
+      "normalizedName": "healer",
+      "category": "Passive",
+      "effect": "Allies with status conditions that end their turn in a Burst 2 radius around this Pokémon reduce the turn duration of their status conditions by 2 instead of 1."
+    },
+    {
+      "id": "1d9e9a6e-5854-8151-ba40-fcbd3b66bb51",
+      "name": "Harvest",
+      "normalizedName": "harvest",
+      "category": "Trigger",
+      "effect": "When this Pokemon eats a Berry, roll power at the start of its next turn.  On a roll of 11+, the Berry is restored as its held item.\n\nHarvest will always activate in harsh sunlight."
+    },
+    {
+      "id": "1d9e9a6e-5854-818a-abf4-ce40758c6f54",
+      "name": "Guts",
+      "normalizedName": "guts",
+      "category": "Passive",
+      "effect": "While this Pokémon has a non-volatile status condition, its attack is raised. This Pokémon does not suffer the Attack penalty normally imposed by being burned."
+    },
+    {
+      "id": "1d9e9a6e-5854-818c-ba8e-d46c83932ed2",
+      "name": "Grassy Surge",
+      "normalizedName": "grassysurge",
+      "category": "ETB",
+      "effect": "The ground in a Burst 2 radius of this Pokémon becomes difficult terrain (Grass) for the rest of the battle. Roll power:\n\nTier 1 (9 or lower): No effect.\nTier 2 (10 to 14): Pokémon in range take Grass damage equal to half of the Power Roll result, rounded down.\nTier 3 (15+): Pokémon in range take Grass damage equal to equal to the Power Roll result. Drowsy 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-812f-af8c-e66d3cf54f5f",
+      "name": "Fur Coat",
+      "normalizedName": "furcoat",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, its Defense is sharply raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-8142-a3c3-cca77b17b65f",
+      "name": "Galvanize",
+      "normalizedName": "galvanize",
+      "category": "Passive",
+      "effect": "Any Normal-type move used by this Pokémon becomes Electric-type. When a move’s type changes this way, the user gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8156-a1d7-df9443158ea7",
+      "name": "Gale Wings",
+      "normalizedName": "galewings",
+      "category": "Passive",
+      "effect": "This Pokémon may use Flying-type moves as priority moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b9-87e3-d3eefb4bfbe1",
+      "name": "Gooey",
+      "normalizedName": "gooey",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon is hit by a Contact move, lower the Attacker’s Speed.\n"
+    },
+    {
+      "id": "1d9e9a6e-5854-81da-9387-dd76bc051cf7",
+      "name": "Gluttony",
+      "normalizedName": "gluttony",
+      "category": "Passive",
+      "effect": "This Pokémon eats Berries when reduced to 50% HP (instead of 25%)."
+    },
+    {
+      "id": "1d9e9a6e-5854-81fe-971e-d0331bf6bbe0",
+      "name": "Grass Pelt",
+      "normalizedName": "grasspelt",
+      "category": "Passive",
+      "effect": "When this Pokémon is standing in tall grass, dense foliage, or any Difficult Terrain (Grass), raise its Defense."
+    },
+    {
+      "id": "1d9e9a6e-5854-8128-b5b6-d53872863f75",
+      "name": "Forewarn",
+      "normalizedName": "forewarn",
+      "category": "Free Action",
+      "effect": "Pick a target within 12 squares. This Pokemon learns the move with the highest damage the target knows."
+    },
+    {
+      "id": "1d9e9a6e-5854-8192-9cf9-ef0884844fc8",
+      "name": "Full Metal Body",
+      "normalizedName": "fullmetalbody",
+      "category": "Passive",
+      "effect": "This Pokemon's stat stages cannot be lowered from enemy moves or effects."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b9-a986-e42e264f19ad",
+      "name": "Frisk",
+      "normalizedName": "frisk",
+      "category": "Free Action",
+      "effect": "This Pokémon learns the held item, if any, of all enemy Pokémon within 12 squares."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ce-8877-f3e6ae27e62e",
+      "name": "Friend Guard",
+      "normalizedName": "friendguard",
+      "category": "Passive",
+      "effect": "Allies standing adjacent to this Pokémon resist all damage types by 1 stage more."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ec-b9fe-fa52d2925ed3",
+      "name": "Forecast",
+      "normalizedName": "forecast",
+      "category": "Passive",
+      "effect": "This Pokémon’s type changes based on the weather. In Harsh Sunlight it becomes its Sunny form, a Fire-type. In Hail, it becomes its Snowy form, an Ice-type. In Rain it becomes its Rainy form, a Water-type. In Sandstorms, fog, wind, or clear weather, it becomes Normal-type."
+    },
+    {
+      "id": "1d9e9a6e-5854-817d-8036-c375f7c74a13",
+      "name": "Flare Boost",
+      "normalizedName": "flareboost",
+      "category": "Passive",
+      "effect": "While this Pokémon is Burned, its Special Attack is raised."
+    },
+    {
+      "id": "1d9e9a6e-5854-819a-a44f-ccab2a4aba95",
+      "name": "Flame Body",
+      "normalizedName": "flamebody",
+      "category": "Trigger",
+      "effect": "Any time this Pokémon is hit with a Contact move, roll power. On a roll of 14+ the enemy is Burned 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a9-a0a0-f50e240296b7",
+      "name": "Flower Veil",
+      "normalizedName": "flowerveil",
+      "category": "Passive",
+      "effect": "This Pokemon's allies within 12 squares cannot have their stat stages lowered from enemy moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b1-94e2-f96ca854def4",
+      "name": "Fluffy",
+      "normalizedName": "fluffy",
+      "category": "Passive",
+      "effect": "This Pokémon takes half damage from Contact moves and double damage from Fire-type moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ef-a391-da318d591d4c",
+      "name": "Flash Fire",
+      "normalizedName": "flashfire",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to Fire-type damage. When it is hit by an attack that would deal Fire-type damage, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) for its next damaging move."
+    },
+    {
+      "id": "1d9e9a6e-5854-814d-a6e1-e6d011409822",
+      "name": "Filter",
+      "normalizedName": "filter",
+      "category": "Trigger",
+      "effect": "When this Pokémon is hit by a super effective move or ability, lower the attacker’s [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) for the damage calculation."
+    },
+    {
+      "id": "1d9e9a6e-5854-8161-a671-f78b413a9177",
+      "name": "Emergency Exit",
+      "normalizedName": "emergencyexit",
+      "category": "Trigger",
+      "effect": "When this Pokémon’s HP drops below 50% of its maximum HP, it instantly returns to its Pokéball and its Trainer can send out a different Pokémon. If this Pokémon is wild, it immediately gains movement speed equal to its maximum and attempts to flee."
+    },
+    {
+      "id": "1d9e9a6e-5854-81f4-b087-e376231fbaee",
+      "name": "Electric Surge",
+      "normalizedName": "electricsurge",
+      "category": "Free Action",
+      "effect": "The ground in a Burst 2 radius of this Pokemon becomes difficult terrain (Electric) for the rest of the battle. Roll power:\n\nTier 1 (9 or lower): No effect.\nTier 2 (10 to 14): Pokémon in range take Electric damage equal to half of the Power Roll result, rounded down.\nTier 3 (15+): Pokémon in range take Electric damage equal to equal to the Power Roll result. Paralyze 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-81fb-9f44-e793a3915d52",
+      "name": "Effect Spore",
+      "normalizedName": "effectspore",
+      "category": "Trigger",
+      "effect": "Any time this Pokémon is hit with a Contact move, roll power. On a roll of 14, 15, or 16, the enemy is Poisoned 2. On a roll of 17 or 18, the enemy is now Paralyzed 2. On a roll of 19 or 20, the enemy is now Asleep 2."
+    },
+    {
+      "id": "1d9e9a6e-5854-8106-9390-ca0f4ce143a3",
+      "name": "Drizzle",
+      "normalizedName": "drizzle",
+      "category": "ETB",
+      "effect": "When this Pokemon enters, the [weather](/293e9a6e58548032a247eb6fae39019f) changes to Rain."
+    },
+    {
+      "id": "1d9e9a6e-5854-8141-a351-df4c4af3e173",
+      "name": "Drought",
+      "normalizedName": "drought",
+      "category": "ETB",
+      "effect": "When this Pokemon enters, the [weather](/293e9a6e58548032a247eb6fae39019f) changes to Harsh Sunlight."
+    },
+    {
+      "id": "1d9e9a6e-5854-8179-a094-ced670e2b78a",
+      "name": "Early Bird",
+      "normalizedName": "earlybird",
+      "category": "Passive",
+      "effect": "Reduce the turn duration of any [Drowsy or Sleep](/211e9a6e5854807c9db2fd370e0240f4) statuses that would affect this Pokémon by two turns."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a2-9ee7-f08f25ae7263",
+      "name": "Dry Skin",
+      "normalizedName": "dryskin",
+      "category": "Trigger",
+      "effect": "This Pokémon loses 1/8 of its max HP at the end of each of its turns during Harsh Sunlight. During Rain, this Pokémon will regain 1/8 of its max HP at the end of each of its turns. Raise the attacker’s [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) when this Pokémon takes damage from Fire-type moves. When it is hit by a damaging Water-type move, it takes no damage and instead restores 25% of its HP."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c3-84af-ff2c6ff33ab1",
+      "name": "Download",
+      "normalizedName": "download",
+      "category": "Free Action",
+      "effect": "Choose an enemy Pokémon within 8 squares. Raise this Pokémon’s Attack if the enemy's Defense is lower than its Special Defense. Raise this Pokémon’s Special Attack stage if the enemy's Special Defense is lower than its Defense. This ability can only be used once per battle."
+    },
+    {
+      "id": "1d9e9a6e-5854-8148-b62e-d7f5e99a81f5",
+      "name": "Defeatist",
+      "normalizedName": "defeatist",
+      "category": "Passive",
+      "effect": "While this Pokémon’s HP is below 50% of its maximum HP, lower its effective stat stage when dealing damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-8155-bfce-e5512d73d550",
+      "name": "Dazzling",
+      "normalizedName": "dazzling",
+      "category": "Passive",
+      "effect": "Priority moves that target this Pokémon or its allies within 12 squares fail."
+    },
+    {
+      "id": "1d9e9a6e-5854-815d-8f70-d16762f3b27e",
+      "name": "Dark Aura",
+      "normalizedName": "darkaura",
+      "category": "Passive",
+      "effect": "Whenever a Dark-type damaging move is used within 12 squares of this Pokémon, raise the user’s effective stat stage for the damage calculation."
+    },
+    {
+      "id": "1d9e9a6e-5854-819e-a8c2-c8dfcf35660b",
+      "name": "Disguise",
+      "normalizedName": "disguise",
+      "category": "Passive",
+      "effect": "This Pokémon is Disguised by default. If it is hit by a damaging attack, it receives no damage and its disguise ends. This disguise will return after the battle ends or if the Pokémon faints and is revived.\n"
+    },
+    {
+      "id": "1d9e9a6e-5854-81b3-b758-eadae843a2cf",
+      "name": "Dancer",
+      "normalizedName": "dancer",
+      "category": "Trigger",
+      "effect": "When a creature within 12 squares of this Pokémon uses Feather Dance, Fiery Dance, Dragon Dance, Lunar Dance, Petal Dance, Revelation Dance, Quiver Dance, Swords Dance, or Teeter Dance this Pokémon can use that move immediately as a reaction."
+    },
+    {
+      "id": "1d9e9a6e-5854-81c2-a5e1-f96bdce25216",
+      "name": "Defiant",
+      "normalizedName": "defiant",
+      "category": "Passive",
+      "effect": "Whenever this Pokémon has a stat stage lowered by an enemy's effect, sharply raise its Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-8162-b53d-e75366f5838e",
+      "name": "Cute Charm",
+      "normalizedName": "cutecharm",
+      "category": "Trigger",
+      "effect": "Any time this Pokémon is damaged by a move, roll power. On a roll of 14+ the attacker becomes Infatuated with this Pokemon."
+    },
+    {
+      "id": "1d9e9a6e-5854-816d-a152-f611493b5b95",
+      "name": "Corrosion",
+      "normalizedName": "corrosion",
+      "category": "Passive",
+      "effect": "This Pokémon can inflict the status condition [Poisoned or Badly Poisoned](/211e9a6e5854807c9db2fd370e0240f4) on any target, regardless of type or immmunity."
+    },
+    {
+      "id": "1d9e9a6e-5854-817b-86fc-e90865617a6a",
+      "name": "Cursed Body",
+      "normalizedName": "cursedbody",
+      "category": "Trigger",
+      "effect": "Any time this Pokémon is damaged by a move, roll power. On a roll of 14+ that move is Disabled for 4 turns."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a9-ba85-f3df31c0e2dc",
+      "name": "Contrary",
+      "normalizedName": "contrary",
+      "category": "Passive",
+      "effect": "Any time this Pokémon’s stat stages would be affected, they are instead changed in the opposite way. For example, a +1 Attack stage would instead become a -1, and a -2 Special Defense stage would instead become a +2. "
+    },
+    {
+      "id": "1d9e9a6e-5854-81ca-852a-fb85180d7175",
+      "name": "Damp",
+      "normalizedName": "damp",
+      "category": "Passive",
+      "effect": "The moves Self-Destruct, Explosion, Mind Blown, and the ability Aftermath cannot be used or triggered within 12 squares of this Pokémon."
+    },
+    {
+      "id": "1d9e9a6e-5854-8105-8eb2-e024df57f0a6",
+      "name": "Color Change",
+      "normalizedName": "colorchange",
+      "category": "Trigger",
+      "effect": "This Pokemon's type changes to the type of any move that hits it after the effects of that move."
+    },
+    {
+      "id": "1d9e9a6e-5854-814a-b666-cd1aab15489d",
+      "name": "Competitive",
+      "normalizedName": "competitive",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon has a stat stage lowered by an enemy's effect, sharply raise its Special Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-8173-bcb7-c49d299161e3",
+      "name": "Cloud Nine",
+      "normalizedName": "cloudnine",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, all [weather](/293e9a6e58548032a247eb6fae39019f) effects within a mile are cleared."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b5-a82b-de146e51bc00",
+      "name": "Comatose",
+      "normalizedName": "comatose",
+      "category": "Passive",
+      "effect": "This Pokémon is always asleep and is thus immune to the [Drowsy and Sleep conditions](/211e9a6e5854807c9db2fd370e0240f4). It can use moves and act normally while asleep. It takes double damage from Hex and Wakeup Slap and can be targeted by Dream Eater, Nightmare and Bad Dreams. It cannot use Rest."
+    },
+    {
+      "id": "1d9e9a6e-5854-81e5-8543-c1cfc75c0781",
+      "name": "Compound Eyes",
+      "normalizedName": "compoundeyes",
+      "category": "ETB",
+      "effect": "This Pokémon gets +1 to all Power Rolls made for damaging moves."
+    },
+    {
+      "id": "1d9e9a6e-5854-8139-95a6-d64e07b503d8",
+      "name": "Bulletproof",
+      "normalizedName": "bulletproof",
+      "category": "Passive",
+      "effect": "This Pokémon is immune to the moves Acid Spray, Aura Sphere, Barrage, Beak Blast, Bullet Seed, Egg Bomb, Electro Ball, Energy Ball, Focus Blast, Gyro Ball, Ice Ball, Magnet Bomb, Mist Ball, Mud Bomb, Octazooka, Pollen Puff, Rock Blast, Rock Wrecker, Searing Shot, Seed Bomb, Shadow Ball, Sludge Bomb, Weather Ball, and Zap Cannon."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a3-91c3-f785e176e39c",
+      "name": "Clear Body",
+      "normalizedName": "clearbody",
+      "category": "Passive",
+      "effect": "This Pokémon’s stat stages cannot be lowered from enemy moves or effects."
+    },
+    {
+      "id": "1d9e9a6e-5854-81a9-b10d-fde79a13238a",
+      "name": "Cheek Pouch",
+      "normalizedName": "cheekpouch",
+      "category": "Trigger",
+      "effect": "When this Pokémon consumes a Berry, it regains 1/3 of its maximum HP in addition to the other effects of the Berry."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b4-8f6b-c9275520cc78",
+      "name": "Chlorophyll",
+      "normalizedName": "chlorophyll",
+      "category": "Passive",
+      "effect": "This Pokémon sharply raises its Speed in [harsh sunlight](/293e9a6e58548032a247eb6fae39019f)."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ec-940b-f2f097b677ef",
+      "name": "Blaze",
+      "normalizedName": "blaze",
+      "category": "Passive",
+      "effect": "While this Pokémon is at 1/3 of its maximum HP or lower, raise its [effective stat stage](/211e9a6e58548069a3e6fb330e53ddfd) when dealing Fire-type damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-8156-bc39-cbbeba5132d1",
+      "name": "Berserk",
+      "normalizedName": "berserk",
+      "category": "Trigger",
+      "effect": "Each time this Pokémon drops below half of its maximum HP, raise its Special Attack."
+    },
+    {
+      "id": "1d9e9a6e-5854-817b-9bde-e61aeb3c9860",
+      "name": "Beast Boost",
+      "normalizedName": "beastboost",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon reduces an opponent to 0 HP, raise its highest stat."
+    },
+    {
+      "id": "1d9e9a6e-5854-8193-bef5-c078fdf28f56",
+      "name": "Battle Armor",
+      "normalizedName": "battlearmor",
+      "category": "Passive",
+      "effect": "[Critical hits](/293e9a6e58548091be8fd75eb6ecd14b) do not gain bonus damage against this Pokémon. If this Pokémon is the only target of the critical hit, the user does not gain an additional action."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b9-8121-ced5734da588",
+      "name": "Big Pecks",
+      "normalizedName": "bigpecks",
+      "category": "Passive",
+      "effect": "This Pokémon cannot have its Defense stage lowered by enemy moves or effects."
+    },
+    {
+      "id": "1d9e9a6e-5854-8142-8373-e84cae287828",
+      "name": "Aroma Veil",
+      "normalizedName": "aromaveil",
+      "category": "Passive",
+      "effect": "Allies within 6 squares of this Pokémon are immune to the effects of Taunt, Torment, Encore, Disable, Cursed Body, Heal Block, and the [infatuation](/211e9a6e585480ca9529da3727d677cc) condition."
+    },
+    {
+      "id": "1d9e9a6e-5854-8195-965e-df22bd22b90c",
+      "name": "Bad Dreams",
+      "normalizedName": "baddreams",
+      "category": "Trigger",
+      "effect": "At the beginning of the user's turn, all [Drowsy](/211e9a6e5854807c9db2fd370e0240f4) enemies within 6 squares take 1/8 of their max HP in damage. All [Sleeping](/211e9a6e5854807c9db2fd370e0240f4) enemies within 6 squares take 1/4 of their max HP in damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-81df-b1a2-d2439a02f4d6",
+      "name": "Battery",
+      "normalizedName": "battery",
+      "category": "Trigger",
+      "effect": "Whenever an ally within 2 squares of this Pokémon uses a damaging move, raise their Special Attack for the purpose of that move’s damage calculation."
+    },
+    {
+      "id": "1d9e9a6e-5854-817d-b7d0-c4cda8e6c484",
+      "name": "Arena Trap",
+      "normalizedName": "arenatrap",
+      "category": "Free Action",
+      "effect": "The ground in a [Burst 2](/213e9a6e585480e3913bf0d13b1e115e) radius becomes difficult terrain of one of this Pokémon’s types for the rest of the battle or until it leaves the battle. All enemy Pokémon that begin their turn within 5 squares of this Pokémon are [Trapped](/211e9a6e585480ca9529da3727d677cc) until the beginning of their next turn."
+    },
+    {
+      "id": "1d9e9a6e-5854-81ba-a942-f289937f12ec",
+      "name": "Anticipation",
+      "normalizedName": "anticipation",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, it immediately determines whether any enemies within 10 squares have an attack that is super-effective against it. Anticipation ignores cover and concealment, but does not reveal the location or identity of enemies, or the name of the attack(s), returning only a “yes/no” answer."
+    },
+    {
+      "id": "1d9e9a6e-5854-81bb-9d34-c9832454d014",
+      "name": "Anger Point",
+      "normalizedName": "angerpoint",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon is hit by a [critical hit](/293e9a6e58548091be8fd75eb6ecd14b), maximize its Attack stage modifier."
+    },
+    {
+      "id": "1d9e9a6e-5854-8105-87b7-c245d6570bf6",
+      "name": "Aerilate",
+      "normalizedName": "aerilate",
+      "category": "Trigger",
+      "effect": "Any Normal-type move used by this Pokémon becomes Flying-type. When a move’s type changes this way, the user gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-8172-b0b0-d3ddefebe705",
+      "name": "Analytic",
+      "normalizedName": "analytic",
+      "category": "Trigger",
+      "effect": "Whenever this Pokémon would damage a target that has acted this round, it gains a [surge](/213e9a6e58548098a24ef4f25eb3690b)."
+    },
+    {
+      "id": "1d9e9a6e-5854-81b0-a3eb-e27f06ae8bbf",
+      "name": "Air Lock",
+      "normalizedName": "airlock",
+      "category": "ETB",
+      "effect": "When this Pokémon enters, all [weather](/293e9a6e58548032a247eb6fae39019f) effects within a mile are cleared."
+    },
+    {
+      "id": "1d9e9a6e-5854-81bd-8a4b-d9b711580944",
+      "name": "Aftermath",
+      "normalizedName": "aftermath",
+      "category": "Trigger",
+      "effect": "When this Pokémon  faints, it explodes ([Burst 2](/213e9a6e585480e3913bf0d13b1e115e)). All creatures caught in the burst take 1/4 of their max HP in damage."
+    },
+    {
+      "id": "1d9e9a6e-5854-81bf-b989-c3c9ecd6d7a2",
+      "name": "Adaptability",
+      "normalizedName": "adaptability",
+      "category": "Passive",
+      "effect": "This Pokémon gains a [surge ](/213e9a6e58548098a24ef4f25eb3690b)when it uses a damaging move that matches one if its types."
+    }
+  ]
+}

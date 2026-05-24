@@ -1,0 +1,8 @@
+{
+  "version": "20260524-102033526Z",
+  "updatedAt": "2026-05-24T10:20:33.526Z",
+  "urls": {
+    "moves": "https://remiremi-git-pokemontracker.vercel.app/pokemon-tabletop/moves.json",
+    "abilities": "https://remiremi-git-pokemontracker.vercel.app/pokemon-tabletop/abilities.json"
+  }
+}

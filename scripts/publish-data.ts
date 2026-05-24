@@ -4,6 +4,9 @@ import {
   publishRuntimeData,
   type NotionSyncConfig,
 } from "../packages/notion-sync/src";
+import { loadLocalEnv } from "./load-local-env";
+
+loadLocalEnv();
 
 function requireEnv(name: string): string {
   const value = process.env[name];

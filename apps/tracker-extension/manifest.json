@@ -7,7 +7,7 @@
   "host_permissions": [
     "https://bulbapedia.bulbagarden.net/*",
     "https://*.bulbagarden.net/*",
-    "https://TODO_STATIC_HOST.example.com/*"
+    "https://remiremi-git-pokemontracker.vercel.app/*"
   ],
   "background": {
     "service_worker": "dist/background.js",
