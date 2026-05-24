@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Pokemon Tabletop Lookup",
+  "description": "Shows tabletop move and ability data on Bulbapedia pages.",
+  "version": "0.1.0",
+  "permissions": ["storage", "alarms"],
+  "host_permissions": [
+    "https://bulbapedia.bulbagarden.net/*",
+    "https://*.bulbagarden.net/*",
+    "https://TODO_STATIC_HOST.example.com/*"
+  ],
+  "background": {
+    "service_worker": "dist/background.js",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://bulbapedia.bulbagarden.net/wiki/*"],
+      "js": ["dist/contentScript.js"],
+      "css": ["src/styles.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dist/shared/*.js"],
+      "matches": ["https://bulbapedia.bulbagarden.net/*"]
+    }
+  ]
+}
