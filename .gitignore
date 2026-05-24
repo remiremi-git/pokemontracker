@@ -29,6 +29,7 @@ packages/notion-sync/dist
 .git/
 .git-meta/
 .git-blocked/
+.git-pushmeta/
 
 # debug
 npm-debug.log*
